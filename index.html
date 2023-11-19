@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="./js/formm.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="signin">
+            <div class="container">
+                <div class="item">
+                    <h2 class="item__text">Your Logo</h2>
+                </div>
+                <div class="item">
+                    <div class="item__content">
+                        <h1 class="item__title">Sign in to </h1>
+                        <h2 class="item__subtitle">Lorem Ipsum is simply </h2>
+                        <h3 class="item__text">If you don’t have an account register You can <a href="#!"><span class="blue">Register here !</span></a></h3>
+                    </div>
+                    <div class="item__image"></div>
+                </div>
+                <div class="item">
+                    <form name="main" action="./js/formm.js" method="post" class="form">
+                        <h2 class="form__title">Sign in</h2>
+                        <input type="email" name="email" tabindex="1" placeholder="Enter email or user name" class="form__input" autofocus="on" autocomplete="on">
+                        <input type="password" name="password" tabindex="2" placeholder="Password" class="form__input" autofocus="on" autocomplete="on">
+                        <div class="form__forgot">Forgot password ?</div>
+                        <button type="submit" class="form__login">Login</button>
+                        <div class="alternate">or continue with</div>
+                        <ul class="form__alternate-login">
+                            <li class="link-website">
+                                <a href="#!" class="link">
+                                    <div class="link-item facebook"></div>
+                                </a>
+                            </li>
+                            <li class="link-website">
+                                <a href="#!" class="link">
+                                    <div class="link-item apple"></div>
+                                </a>
+                            </li>
+                            <li class="link-website">
+                                <a href="#!" class="link">
+                                    <div class="link-item google"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
